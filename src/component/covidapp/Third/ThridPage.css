@@ -1,0 +1,45 @@
+.maindiv{
+    margin-top: 120px;
+    text-align: center;
+    color: #6B6B6B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hoscontainer{
+    width: 1000px;
+    height: 300px;
+    /* background-color: #e23434; */
+    margin: auto;
+    display: flex;
+    
+}
+.hosleft{
+    width: 400px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.hosrightP{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.hosright h6{
+    width: 400px;
+    margin-left: -110px;
+    
+}
+.boxthird{
+ width: 298px;
+height: 50px;
+border: 1px solid #464646;
+border-radius: 15px;
+margin-top: -25px;
+    
+}
+.boxfor{
+    width: 298px;
+height: 50px;
+border: 1px solid #464646;
+border-radius: 15px;
+}

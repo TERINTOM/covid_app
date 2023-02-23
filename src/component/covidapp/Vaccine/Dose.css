@@ -1,0 +1,42 @@
+.radio-button{
+    
+    margin-left: 100px;
+    margin-top: 72px;
+    /* background-color: #d14a4a; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+  
+}
+
+input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.card3{
+    background-color: white;
+    box-shadow: -6px 8px 17px 1px rgba(106, 105, 105, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 188px !important;
+    height: 107px !important;
+    border-radius: 24px;
+    margin: auto;
+    color: #6B6B6B;
+   font-family: 'Inter';
+   font-size: 20px;
+   font-weight: 600;
+}
+.card5{
+    border: 2px solid #009FF9;
+}
+.age-radiobttn,.paid-radiobttn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    grid-gap:50px
+
+}
